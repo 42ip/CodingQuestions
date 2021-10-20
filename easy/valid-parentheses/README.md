@@ -33,7 +33,7 @@ An input string is valid if:
 
 **Example 5**:
 
->**Input**: s = "{[]}"
+>**Input**: s = "{[]}"  
 >**Output**: true
  
 
