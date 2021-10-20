@@ -4,47 +4,40 @@ Question -
     https://leetcode.com/problems/valid-parentheses/
 
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
 An input string is valid if:
 
-1. Open brackets must be closed by the same type of brackets.
-
+1. Open brackets must be closed by the same type of brackets.  
 2. Open brackets must be closed in the correct order.
 
-Example 1:
+**Example 1**:
 
-Input: s = "()"
+>**Input**: s = "()"  
+>**Output**: true
 
-Output: true
+**Example 2**:
 
-Example 2:
+>**Input**: s = "()[]{}"  
+>**Output**: true
 
-Input: s = "()[]{}"
+**Example 3**:
 
-Output: true
+>**Input**: s = "(]"  
+>**Output**: false
 
-Example 3:
+**Example 4**:
 
-Input: s = "(]"
+>**Input**: s = "([)]"  
+>**Output**: false
 
-Output: false
+**Example 5**:
 
-Example 4:
-
-Input: s = "([)]"
-
-Output: false
-
-Example 5:
-
-Input: s = "{[]}"
-
-Output: true
+>**Input**: s = "{[]}"  
+>**Output**: true
  
 
-Constraints:
+**Constraints**:
 
-1 <= s.length <= 104
-
-s consists of parentheses only '()[]{}'.
+* `1 <= s.length <= 104`  
+* `s` consists of parentheses only `'()[]{}'`.
