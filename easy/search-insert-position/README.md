@@ -39,5 +39,5 @@ You must write an algorithm with `O(log n)` runtime complexity.
 
 * 1 <= nums.length <= 104  
 * -104 <= nums[i] <= 104  
-* nums contains distinct values sorted in ascending order.  
+* nums contains **distinct** values sorted in **ascending** order.  
 * -104 <= target <= 104
